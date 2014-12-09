@@ -25,9 +25,33 @@ Simply include simple-slider.js at the end of your project, just before the clos
 
 Instantiate the simple_slider class and add the config parameters
 
-* @param (string)targ - HTML enhanced for web apps!
-* @param (int)max_val - awesome web-based text editor
-* @param (int)init_val - a super fast port of Markdown to JavaScript
-* @param (string)write_to - great UI boilerplate for modern web apps
-* @param (bool)verbose - evented I/O for the backend
-* @param (string)orient - fast node.js network app framework [@tjholowaychuk]
+* **_@param_** (_string_)**targ** - Element target where the slider is to be installed. Use  **.** or **#** to target class or id identifier respectively (_class target installs on first ocurrence of class element_).  
+* ** _@param_** (_int_)**max_val** - Slider max
+*  **_@param_** (_int_)**init_val** - Value where slider starts
+*  **_@param_** (_string_)**write_to** - (_option_) write slider current value onto (_hereby_) specified element
+*  **_@param_** (_bool_)**verbose** - (_option_) true to output slider current value to console log.
+*  **_@param_** (_string_)**orient** - _"vertical"_ or _"horizontal"_ for vertical or horizontal slider mode. **NOTE:** match css styling to cohere with mode see **_styling_**.
+
+```html
+...
+<script type="text/javascript" src="js/cdlm-slider.js"></script>
+<script type="text/javascript">
+	var vsl = new cdlm_slider({	
+								targ: '.test',
+								max_val: 500,
+								init_val: 0,
+								write_to: '#cdlm-slider-thumb',
+								verbose: false,
+								orient: 'vertical'
+							});
+</script>
+</body>
+```
+
+
+### Styling
+
+Simple Slider adapts to pretty much any css styling. NOTE: style widths and heights coherently to match slider vertical and horizontal modes: Use larger track height than track width for vertical mode, and larger track width that track height for horizontal mode.
+
+Stylable elements:
+
