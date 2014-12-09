@@ -37,10 +37,10 @@ Instantiate the simple_slider class and add the config parameters
 <script type="text/javascript" src="js/cdlm-slider.js"></script>
 <script type="text/javascript">
 	var vsl = new cdlm_slider({	
-								targ: '.test',
+								targ: '#any-div',
 								max_val: 500,
 								init_val: 0,
-								write_to: '#cdlm-slider-thumb',
+								write_to: '#any-div',
 								verbose: false,
 								orient: 'vertical'
 							});
