@@ -53,5 +53,29 @@ Instantiate the simple_slider class and add the config parameters
 
 Simple Slider adapts to pretty much any css styling. NOTE: style widths and heights coherently to match slider vertical and horizontal modes: Use larger track height than track width for vertical mode, and larger track width that track height for horizontal mode.
 
-Stylable elements:
+Stylable components:
+
+* **_#cdlm-slider-track_** - Track space for slider thumb
+* **_#cdlm-slider-track-upper_** - Element div representing value of slider, increases and decreases with value on top of thumb (only in supported in vertical mode)
+* **_#cdlm-slider-track-lower_** - Not supported yet
+* **_#cdlm-slider-thumb_** - Thumb of the slider
+
+
+### Development
+
+Ask for pull requests!
+
+
+### Todo's
+
+ - Refactor slider class
+ - Add lower track styling support
+ - Force relative position for thumb, so always clickable
+ - Add left and right track styling support for horizontal mode
+ - Add height/width proportion check to trigger error when css style does not match slider mode
+
+License
+----
+
+MIT
 
