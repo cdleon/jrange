@@ -25,8 +25,8 @@ Simply include simple-slider.js at the end of your project, just before the clos
 
 Instantiate the simple_slider class and add the config parameters
 
-* **_@param_** (_string_)**targ** - Element target where the slider is to be installed. Use  **.** or **#** to target class or id identifier respectively (_class target installs on first ocurrence of class element_).  
-* ** _@param_** (_int_)**max_val** - Slider max
+*  **_@param_** (_string_)**targ** - Element target where the slider is to be installed. Use  **.** or **#** to target class or id identifier respectively (_class target installs on first ocurrence of class element_).  
+*  **_@param_** (_int_)**max_val** - Slider max
 *  **_@param_** (_int_)**init_val** - Value where slider starts
 *  **_@param_** (_string_)**write_to** - (_option_) write slider current value onto (_hereby_) specified element
 *  **_@param_** (_bool_)**verbose** - (_option_) true to output slider current value to console log.
