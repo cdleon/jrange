@@ -1,4 +1,4 @@
-simple-slider.js
+jrange.js
 ================
 
 Simple-slider.js is a lightweight pure javascript slider. 
